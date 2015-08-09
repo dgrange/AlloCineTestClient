@@ -12,41 +12,21 @@
 		926821051B61901400DCA69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926821031B61901400DCA69E /* Main.storyboard */; };
 		926821071B61901400DCA69E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926821061B61901400DCA69E /* Images.xcassets */; };
 		9268210A1B61901400DCA69E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926821081B61901400DCA69E /* LaunchScreen.xib */; };
-		926821161B61901400DCA69E /* AllocineTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926821151B61901400DCA69E /* AllocineTestTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		926821101B61901400DCA69E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 926820F21B61901400DCA69E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 926820F91B61901400DCA69E;
-			remoteInfo = AllocineTest;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		926820FA1B61901400DCA69E /* AllocineTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllocineTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9259C9351B6D205600A70658 /* AlloCineTestClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlloCineTestClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		926820FA1B61901400DCA69E /* AlloCineTestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlloCineTestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		926820FE1B61901400DCA69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		926820FF1B61901400DCA69E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		926821011B61901400DCA69E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		926821041B61901400DCA69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		926821061B61901400DCA69E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		926821091B61901400DCA69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9268210F1B61901400DCA69E /* AllocineTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllocineTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		926821141B61901400DCA69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		926821151B61901400DCA69E /* AllocineTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllocineTestTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		926820F71B61901400DCA69E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9268210C1B61901400DCA69E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,8 +39,7 @@
 		926820F11B61901400DCA69E = {
 			isa = PBXGroup;
 			children = (
-				926820FC1B61901400DCA69E /* AllocineTest */,
-				926821121B61901400DCA69E /* AllocineTestTests */,
+				926820FC1B61901400DCA69E /* AlloCineTestClient */,
 				926820FB1B61901400DCA69E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +47,12 @@
 		926820FB1B61901400DCA69E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				926820FA1B61901400DCA69E /* AllocineTest.app */,
-				9268210F1B61901400DCA69E /* AllocineTestTests.xctest */,
+				926820FA1B61901400DCA69E /* AlloCineTestClient.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		926820FC1B61901400DCA69E /* AllocineTest */ = {
+		926820FC1B61901400DCA69E /* AlloCineTestClient */ = {
 			isa = PBXGroup;
 			children = (
 				926820FF1B61901400DCA69E /* AppDelegate.swift */,
@@ -83,8 +61,9 @@
 				926821061B61901400DCA69E /* Images.xcassets */,
 				926821081B61901400DCA69E /* LaunchScreen.xib */,
 				926820FD1B61901400DCA69E /* Supporting Files */,
+				9259C9351B6D205600A70658 /* AlloCineTestClient-Bridging-Header.h */,
 			);
-			path = AllocineTest;
+			path = AlloCineTestClient;
 			sourceTree = "<group>";
 		};
 		926820FD1B61901400DCA69E /* Supporting Files */ = {
@@ -95,29 +74,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		926821121B61901400DCA69E /* AllocineTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				926821151B61901400DCA69E /* AllocineTestTests.swift */,
-				926821131B61901400DCA69E /* Supporting Files */,
-			);
-			path = AllocineTestTests;
-			sourceTree = "<group>";
-		};
-		926821131B61901400DCA69E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				926821141B61901400DCA69E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		926820F91B61901400DCA69E /* AllocineTest */ = {
+		926820F91B61901400DCA69E /* AlloCineTestClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 926821191B61901400DCA69E /* Build configuration list for PBXNativeTarget "AllocineTest" */;
+			buildConfigurationList = 926821191B61901400DCA69E /* Build configuration list for PBXNativeTarget "AlloCineTestClient" */;
 			buildPhases = (
 				926820F61B61901400DCA69E /* Sources */,
 				926820F71B61901400DCA69E /* Frameworks */,
@@ -127,28 +89,10 @@
 			);
 			dependencies = (
 			);
-			name = AllocineTest;
+			name = AlloCineTestClient;
 			productName = AllocineTest;
-			productReference = 926820FA1B61901400DCA69E /* AllocineTest.app */;
+			productReference = 926820FA1B61901400DCA69E /* AlloCineTestClient.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9268210E1B61901400DCA69E /* AllocineTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9268211C1B61901400DCA69E /* Build configuration list for PBXNativeTarget "AllocineTestTests" */;
-			buildPhases = (
-				9268210B1B61901400DCA69E /* Sources */,
-				9268210C1B61901400DCA69E /* Frameworks */,
-				9268210D1B61901400DCA69E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				926821111B61901400DCA69E /* PBXTargetDependency */,
-			);
-			name = AllocineTestTests;
-			productName = AllocineTestTests;
-			productReference = 9268210F1B61901400DCA69E /* AllocineTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,13 +106,9 @@
 					926820F91B61901400DCA69E = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					9268210E1B61901400DCA69E = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 926820F91B61901400DCA69E;
-					};
 				};
 			};
-			buildConfigurationList = 926820F51B61901400DCA69E /* Build configuration list for PBXProject "AllocineTest" */;
+			buildConfigurationList = 926820F51B61901400DCA69E /* Build configuration list for PBXProject "AlloCineTestClient" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				926820F91B61901400DCA69E /* AllocineTest */,
-				9268210E1B61901400DCA69E /* AllocineTestTests */,
+				926820F91B61901400DCA69E /* AlloCineTestClient */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +137,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9268210D1B61901400DCA69E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +149,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9268210B1B61901400DCA69E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				926821161B61901400DCA69E /* AllocineTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		926821111B61901400DCA69E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 926820F91B61901400DCA69E /* AllocineTest */;
-			targetProxy = 926821101B61901400DCA69E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		926821031B61901400DCA69E /* Main.storyboard */ = {
@@ -295,6 +211,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AllocineClientTest/AllocineClientTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -333,6 +250,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AllocineClientTest/AllocineClientTest-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -342,9 +260,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AllocineTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlloCineTestClient/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AlloCineTestClient;
+				SWIFT_OBJC_BRIDGING_HEADER = "AllocineTestClient/AlloCineTestClient-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -352,50 +271,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AllocineTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlloCineTestClient/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9268211D1B61901400DCA69E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AllocineTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllocineTest.app/AllocineTest";
-			};
-			name = Debug;
-		};
-		9268211E1B61901400DCA69E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = AllocineTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllocineTest.app/AllocineTest";
+				PRODUCT_NAME = AlloCineTestClient;
+				SWIFT_OBJC_BRIDGING_HEADER = "AllocineTestClient/AlloCineTestClient-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		926820F51B61901400DCA69E /* Build configuration list for PBXProject "AllocineTest" */ = {
+		926820F51B61901400DCA69E /* Build configuration list for PBXProject "AlloCineTestClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				926821171B61901400DCA69E /* Debug */,
@@ -404,21 +290,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		926821191B61901400DCA69E /* Build configuration list for PBXNativeTarget "AllocineTest" */ = {
+		926821191B61901400DCA69E /* Build configuration list for PBXNativeTarget "AlloCineTestClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9268211A1B61901400DCA69E /* Debug */,
 				9268211B1B61901400DCA69E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		9268211C1B61901400DCA69E /* Build configuration list for PBXNativeTarget "AllocineTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9268211D1B61901400DCA69E /* Debug */,
-				9268211E1B61901400DCA69E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
